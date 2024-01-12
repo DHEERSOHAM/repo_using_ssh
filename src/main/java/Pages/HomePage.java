@@ -20,6 +20,8 @@ public class HomePage {
 	public String getWelcomemsg()
 	{
 		return driver.findElement(welcomeMSG).getText();
+		
+		
 	}
 
 }
